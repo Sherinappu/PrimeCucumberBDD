@@ -1,0 +1,51 @@
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "HP lap",
+    "type": "computer",
+    "price": 35000,
+    "shipping": 500,
+    "upc": "ax123",
+    "description": "laptop",
+    "manufacturer": "HP",
+    "model": "2021-1/19",
+    "url": "www.hp.com",
+    "image": "www.file.com"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+ETag: W/"112-kBWj6V1lQpUKRUiqwRafySf8uss"
+Date: Wed, 07 Jun 2023 05:48:13 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999693,
+    "name": "HP lap",
+    "type": "computer",
+    "price": 35000,
+    "shipping": 500,
+    "upc": "ax123",
+    "description": "laptop",
+    "manufacturer": "HP",
+    "model": "2021-1/19",
+    "url": "www.hp.com",
+    "image": "www.file.com",
+    "updatedAt": "2023-06-07T05:48:13.305Z",
+    "createdAt": "2023-06-07T05:48:13.305Z"
+}

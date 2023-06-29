@@ -1,0 +1,12 @@
+{
+  "name": "wirelessmobile",
+  "type": "mobile",
+  "price": 12000,
+  "shipping": 80,
+  "upc": "okk",
+  "description": "phone1",
+  "manufacturer": "Mi",
+  "model": "s23",
+  "url": "www.mi.com",
+  "image": "no"
+}
